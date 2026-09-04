@@ -39,7 +39,8 @@ const projects = [
 
   {
     title: "House Price Prediction System",
-    image: "/images/proj_3.jpg",
+    image: `${import.meta.env.BASE_URL}images/proj_3.jpg`,
+    
     description:
       "A machine learning system that predicts house prices based on key property features and location.",
     technologies: [
