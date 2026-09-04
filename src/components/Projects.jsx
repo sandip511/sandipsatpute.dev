@@ -1,12 +1,12 @@
 import {
   FiExternalLink,
   FiGithub,
-} from "react-icons/fi";
+} from "react-icons/fi"; 
 
 const projects = [
   {
     title: "PDF Chatbot",
-    image: "/images/image-1.png",
+    image: `${import.meta.env.BASE_URL}images/image-1.png`,
     description:
       "A smart PDF assistant that uses AI to understand documents and provide fast, accurate answers to user queries.",
     technologies: [
@@ -23,7 +23,7 @@ const projects = [
 
   {
     title: "Car Rental System",
-    image: "/images/photo1.png",
+    image: `${import.meta.env.BASE_URL}images/photo1.png`,
     description:
       "Car-Rental.com — A full-stack car rental platform for discovering, exploring, and booking vehicles with an intuitive and seamless user experience.",
     technologies: [

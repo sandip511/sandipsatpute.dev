@@ -163,7 +163,7 @@ function Resume() {
         <div className="resume-download">
 
           <a
-            href="/Sandip_CV.pdf"
+            href={`${import.meta.env.BASE_URL}Sandip_CV.pdf`}
             className="btn btn-primary"
             download
           >

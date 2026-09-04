@@ -36,7 +36,7 @@ function About() {
 
             <div className="about-image-wrapper">
               <img
-                src="/images/photo-about.png"
+                src={`${import.meta.env.BASE_URL}images/photo-about.png`}
                 alt="Sandip Satpute"
                 className="about-image"
               />

@@ -110,7 +110,7 @@ function Hero() {
           <div className="hero-image-card">
 
             <img
-              src="/images/kg.png"
+              src={`${import.meta.env.BASE_URL}images/kg.png`}
               alt="Sandip Satpute"
               className="hero-image"
             />
